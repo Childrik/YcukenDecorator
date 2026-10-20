@@ -1,0 +1,26 @@
+{
+  "geode": "v4.0.0",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081"
+  },
+  "id": "ycuken.decorator",
+  "name": "Ycuken Decorator",
+  "version": "v0.1.0",
+  "developer": "Ycuken",
+  "description": "Auto-decoration toolkit prototype with ten visual style presets.",
+  "settings": {
+    "style": {
+      "name": "Decoration style",
+      "description": "Choose a preset for the decoration generator.",
+      "type": "string",
+      "default": "Modern Glow"
+    },
+    "preview-only": {
+      "name": "Preview only",
+      "description": "Keep generation in preview mode while the editor UI is being developed.",
+      "type": "bool",
+      "default": true
+    }
+  }
+}
